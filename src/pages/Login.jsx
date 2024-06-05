@@ -1,28 +1,23 @@
 import React from 'react';
 import Add from '../img/add-image.png';
 
-const Register = () => {
+const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">Chat Cloud</span>
-        <span className="title">Register</span>
-        <form>
-          <input type="text" placeholder="display name"></input>
-          <input type="email" placeholder="email"></input>
+        <span className="title">Login</span>
+        <form>   <input type="email" placeholder="email"></input>
           <input type="password" placeholder="password"></input>
           <input style={{ display: 'none' }} type="file" id="file" />
-          <label htmlFor="file">
-            <img src={Add} alt="" />
-            <span>Add an avatar</span>
-          </label>
+        
 
-          <button>Sign up</button>
+          <button>Sign in</button>
         </form>
-        <p>Do you have an account? Login</p>
+        <p> you don't you have an account? Register</p>
       </div>
     </div>
   );
 };
 
-export default Register;
+export default Login;
