@@ -96,8 +96,8 @@
 
     .sidebar {
       flex: 1;
-      border-right: 1px solid white;
       background-color: rgba(55, 76, 161, 0.9);
+      position: relative;
 
       .navbar {
         display: flex;
@@ -135,23 +135,49 @@
         }
       }
       .search {
-        border-bottom: 1px solid rgb(102, 109, 194);
+        border-bottom: 1px solid grey;
 
         .searchForm {
           padding: 10px;
 
           input {
             background-color: transparent;
+            border: none;
+            color: rgb(255, 255, 255);
+            outline: none;
+            &::placeholder {
+              color: rgba(255, 255, 255, 0.5);
+            }
           }
         }
       }
 
       .userChat {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
         img {
           width: 30px;
           height: 30px;
           border-radius: 50%;
           object-fit: cover;
+        }
+        .userChatInfo {
+          span {
+            font-size: 18px;
+            font-weight: 500;
+          }
+          p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+          }
         }
       }
     }
