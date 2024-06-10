@@ -87,7 +87,7 @@
   justify-content: center;
 
   .container {
-    border: 1px solid white;
+    border: 1px solid darkslategrey;
     border-radius: 10px;
     width: 65%;
     height: 80%;
@@ -164,14 +164,14 @@
           background-color: rgba(255, 255, 255, 0.1);
         }
         img {
-          width: 30px;
-          height: 30px;
+          width: 50px;
+          height: 50px;
           border-radius: 50%;
           object-fit: cover;
         }
         .userChatInfo {
           span {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 500;
           }
           p {
@@ -184,6 +184,27 @@
     .chat {
       flex: 2;
       color: white;
+      
+        .chatInfo{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: rgb(86, 135, 184);
+      }
+      .chatIcons {
+       display: flex;
+       gap: 10px;
+       img{
+        height: 20px;
+        cursor: pointer;
+       }
+      }
+    .messages{
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+    }
     }
   }
 }

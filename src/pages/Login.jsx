@@ -1,5 +1,5 @@
 import React from 'react';
-import Add from '../img/add-image.png';
+
 
 const Login = () => {
   return (
