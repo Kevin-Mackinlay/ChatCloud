@@ -1,7 +1,7 @@
-# worldChat
+# ChatCloud
 
 ## Description
-worldChat is a real-time chat application that allows users from around the globe to communicate with each other in a seamless and efficient manner. This project leverages React.js, Socket.IO, and Firebase to provide an interactive and intuitive user experience.
+ChatCloud is a real-time chat application that allows users from around the globe to communicate with each other in a seamless and efficient manner. This project leverages React.js, Socket.IO, and Firebase to provide an interactive and intuitive user experience.
 
 ## Features
 - Real-time messaging
