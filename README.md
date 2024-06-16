@@ -60,5 +60,5 @@ For major changes, please open an issue first to discuss what you would like to 
 - **Email:** [kemack83@gmail.com](mailto:kemack83@gmail.com)
 - **LinkedIn:** [Kevin Mackinlay](https://www.linkedin.com/in/kevin-mackinlay/)
 - **GitHub:** [Kevin-Mackinlay](https://github.com/Kevin-Mackinlay)
-- **Project Link:** [Okaru E-commerce](https://github.com/Kevin-Mackinlay/EcommercePF)
+- **Project Link:** 
 
